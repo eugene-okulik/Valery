@@ -11,4 +11,3 @@ difference = a - b
 product = a * b
 
 print(f"Сумма чисел: {sum_of_numbers}, разность чисел: {difference}, произведение чисел: {product}")
-
