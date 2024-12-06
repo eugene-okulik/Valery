@@ -52,7 +52,7 @@ my_dict['list'].pop(1)
 pprint(my_dict['list'])
 print()
 
-my_dict['dict']["(i am a tuple)"] = (9, 8, 7, 6, 5)
+my_dict['dict'][('i am a tuple',)] = (9, 8, 7, 6, 5)
 pprint(my_dict['dict'])
 print()
 
