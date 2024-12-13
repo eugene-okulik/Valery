@@ -18,11 +18,11 @@ my_parsed_text_with_postfix = []
 for item in my_parsed_text:
     # Проверяем наличие знаков препинания
     if '.' in item or ',' in item:
-        punctuation = item[-1] # Сохраняем последний символ в слове как знак препинания
-        item = item[:-1] # Убираем последний символ из слова
+        punctuation = item[-1]  # Сохраняем последний символ в слове как знак препинания
+        item = item[:-1]  # Убираем последний символ из слова
         item = item + added_postfix + punctuation # Добавляем 'ing' и возвращаем знак препинания
     else:
-        item = item + added_postfix # Если знаков препинания нет, просто добавляем 'ing'
+        item = item + added_postfix  # Если знаков препинания нет, просто добавляем 'ing'
 
     my_parsed_text_with_postfix.append(item)
 
