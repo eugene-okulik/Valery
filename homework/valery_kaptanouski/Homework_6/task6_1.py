@@ -20,7 +20,7 @@ for item in my_parsed_text:
     if '.' in item or ',' in item:
         punctuation = item[-1]  # Сохраняем последний символ в слове как знак препинания
         item = item[:-1]  # Убираем последний символ из слова
-        item = item + added_postfix + punctuation # Добавляем 'ing' и возвращаем знак препинания
+        item = item + added_postfix + punctuation  # Добавляем 'ing' и возвращаем знак препинания
     else:
         item = item + added_postfix  # Если знаков препинания нет, просто добавляем 'ing'
 
