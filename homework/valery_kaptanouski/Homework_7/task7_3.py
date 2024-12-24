@@ -29,9 +29,12 @@ def get_number(line):
         if word.isdigit():
             return int(word)
 
+
 def add_ten(line):
     return get_number(line) + 10
 
+
 for line in lines:
     print(add_ten(line))
+    
 

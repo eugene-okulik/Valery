@@ -16,8 +16,8 @@ user_input = None
 
 while user_input != num:
     user_input = input("Чтобы угадать цифру, введите её: ")
-    if user_input.isdigit() and len(user_input) == 1: # Проверяем, состоит ли строка из цифры
-        user_input = int(user_input) # Преобразуем к int
+    if user_input.isdigit() and len(user_input) == 1:  # Проверяем, состоит ли строка из цифры
+        user_input = int(user_input)  # Преобразуем к int
         if user_input != num:
             print("Попробуйте снова")
     else:
