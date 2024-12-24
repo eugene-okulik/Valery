@@ -36,5 +36,4 @@ def add_ten(line):
 
 for line in lines:
     print(add_ten(line))
-    
 
