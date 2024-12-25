@@ -23,15 +23,15 @@ lines = [
 ]
 
 
-def get_number(line):
-    words = line.split()
+def get_number(text):
+    words = text.split()
     for word in words:
         if word.isdigit():
             return int(word)
 
 
-def add_ten(line):
-    return get_number(line) + 10
+def add_ten(text):
+    return get_number(text) + 10
 
 
 for line in lines:
