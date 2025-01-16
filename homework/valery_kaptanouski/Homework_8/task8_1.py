@@ -20,9 +20,11 @@ def bonus_count(base_salary, is_bonus_applied):
         return base_salary + randint(0, 1000)
     return base_salary
 
+
 def print_result(base_salary, is_bonus_applied):
     calculated_salary = bonus_count(base_salary, is_bonus_applied)
     print(f'{base_salary}, {is_bonus_applied} - ${calculated_salary}')
+
 
 while True:
     salary = int(input('Введите salary: '))
