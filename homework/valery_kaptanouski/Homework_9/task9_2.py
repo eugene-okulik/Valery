@@ -22,6 +22,3 @@ print(hot_temperatures)
 print(max(hot_temperatures))
 print(average_hot_temp)
 print(min(hot_temperatures))
-
-
-
