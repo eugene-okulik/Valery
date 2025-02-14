@@ -44,9 +44,9 @@ def calc(first, second, operation):
     elif operation == '-':
         return first - second
     elif operation == '/':
-        return  first / second
+        return first / second
     elif operation == '*':
-        return  first * second
+        return first * second
 
 
 calc(5, -2)
